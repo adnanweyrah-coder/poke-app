@@ -7,11 +7,7 @@ workflows:
         distribution_type: app_store
         bundle_identifier: com.adnansaid.poke
       vars:
-        APP_STORE_CONNECT_KEY_IDENTIFIER: 2P3S5ZULSS
-        APP_STORE_CONNECT_ISSUER_ID: 2462f739-654f-4602-aa41-15627776e739
         BUNDLE_ID: com.adnansaid.poke
-        XCODE_WORKSPACE: "Runner.xcworkspace"
-        XCODE_SCHEME: "Runner"
       node: latest
       xcode: latest
       cocoapods: default
@@ -41,9 +37,8 @@ workflows:
       - /tmp/xcodebuild_logs/*.log
     publishing:
       app_store_connect:
-        auth: integration
         api_key: $APP_STORE_CONNECT_PRIVATE_KEY
-        key_id: $APP_STORE_CONNECT_KEY_IDENTIFIER
-        issuer_id: $APP_STORE_CONNECT_ISSUER_ID
+        key_id: 2P3S5ZULSS
+        issuer_id: 2462f739-654f-4602-aa41-15627776e739
         submit_to_testflight: false
         submit_to_app_store: true
