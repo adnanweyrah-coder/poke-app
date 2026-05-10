@@ -1,0 +1,149 @@
+# POKE: Space Survivor — Store Listing Copy
+# Use this for both Google Play and Apple App Store
+
+═══════════════════════════════════════════
+APP STORE (APPLE) LISTING
+═══════════════════════════════════════════
+
+APP NAME (30 chars max):
+POKE: Space Survivor
+
+SUBTITLE (30 chars max):
+Tap. Survive. Beat Your Ghost.
+
+BUNDLE ID:
+com.adnansaid.poke
+
+CATEGORY:
+Primary: Games → Arcade
+Secondary: Games → Action
+
+AGE RATING: 4+
+
+─────────────────────────────────────────
+DESCRIPTION (4000 chars max)
+─────────────────────────────────────────
+One tap. One dot. Infinite space.
+
+POKE is the ultimate test of reflex and timing. Guide your glowing dot through an endless field of asteroid walls — tap to flap, hold to soar, and see how far you can go before the universe closes in.
+
+SIMPLE TO LEARN. IMPOSSIBLE TO MASTER.
+Just tap the screen. That's it. But surviving long enough to become a legend? That's the challenge.
+
+FEATURES:
+🚀 Flap & hold controls — tap for a boost, hold to keep climbing
+👻 Ghost mode — race against your own best run every time
+⚡ Combo system — chain walls without tapping for massive bonuses
+🌀 Moving walls — obstacles that shift and slide as you progress
+🏅 15 badges to earn — milestones that track your journey
+📊 XP & level system — every game makes you stronger
+🎯 Daily challenges — a new goal every single day
+🔥 Streak system — build your daily streak and watch it grow
+🏆 Season leaderboard — compete for the top spot every week
+🎨 Unlockable dot skins — comet, skull, heart, bolt and more
+🔊 4 sound packs — Deep Space, 8-Bit, Deep Bass, Crystal
+🌌 Deep Space theme — a living universe that reacts to your score
+📸 Shareable death cards — screenshot your run fingerprint and share it
+
+HOW FAR CAN YOU GO?
+Every run is unique. Your trail is your fingerprint — no two runs ever look the same. Share your score card and challenge your friends.
+
+Perfect for ages 5 to 65. Play for 30 seconds or 30 minutes.
+
+─────────────────────────────────────────
+KEYWORDS (100 chars max, comma separated)
+─────────────────────────────────────────
+arcade,one tap,reflex,space,flappy,survival,dodge,casual,addictive,minimalist,score,fast
+
+─────────────────────────────────────────
+WHAT'S NEW (first version)
+─────────────────────────────────────────
+Welcome to POKE: Space Survivor! 
+
+Your mission: survive as long as possible in deep space. Tap to flap, hold to soar, avoid the walls, beat your ghost. Simple. Addictive. Beautiful.
+
+Good luck, pilot. 🚀
+
+─────────────────────────────────────────
+SUPPORT URL:
+https://github.com/adnansaid/poke (or your own site)
+
+PRIVACY POLICY URL:
+Host your privacy-policy/index.html file and paste the URL here.
+Recommended: upload to GitHub Pages for free hosting.
+
+
+═══════════════════════════════════════════
+GOOGLE PLAY LISTING
+═══════════════════════════════════════════
+
+APP NAME (50 chars max):
+POKE: Space Survivor
+
+SHORT DESCRIPTION (80 chars max):
+One tap arcade survival in deep space. How far can you go?
+
+PACKAGE NAME:
+com.adnansaid.poke
+
+CATEGORY: Games → Arcade
+
+CONTENT RATING: Everyone
+
+─────────────────────────────────────────
+FULL DESCRIPTION (4000 chars max)
+─────────────────────────────────────────
+One tap. One dot. Infinite space.
+
+POKE is the ultimate one-tap arcade survival game. Guide your glowing dot through an endless field of asteroid walls — tap to flap, hold to soar, and see how far you can go before the universe closes in.
+
+▸ SIMPLE TO LEARN. IMPOSSIBLE TO MASTER.
+Just tap the screen. That's it. But surviving long enough to become a legend? That's the real challenge.
+
+▸ FEATURES
+🚀 Flap & hold controls — tap for a boost, hold to keep climbing
+👻 Ghost mode — race against your own best run every time  
+⚡ Combo system — chain walls without tapping for massive bonuses
+🌀 Moving walls — obstacles that shift and slide as you progress
+🏅 15 badges to earn across your journey
+📊 XP & level system — every game counts
+🎯 Daily challenges — a fresh goal every single day
+🔥 Streak system — build momentum day by day
+🏆 Season leaderboard — weekly competition for the top spot
+🎨 6 unlockable dot skins — comet, skull, heart, bolt, star and more
+🔊 4 sound packs — Deep Space, 8-Bit, Deep Bass, Crystal
+🌌 Living universe — background reacts to your score in real time
+📸 Shareable death cards — your run leaves a unique trail fingerprint
+
+▸ WHY POKE?
+Every run is different. The walls are never in the same place twice. Your trail is your fingerprint — screenshot it, share it, challenge your friends to beat it.
+
+Built for ages 5 to 65. Play for 30 seconds or 30 minutes. No internet required. No ads. Pure game.
+
+▸ HOW TO PLAY
+• Tap to flap upward
+• Hold to keep rising
+• Release to fall with gravity
+• Pass through the glowing gaps in the walls
+• Don't touch the walls — or it's over
+
+Good luck, pilot. 🚀
+
+─────────────────────────────────────────
+CONTACT EMAIL:
+adnanweyrah@gmail.com
+
+PRIVACY POLICY URL:
+(same as above — host and paste URL)
+
+
+═══════════════════════════════════════════
+SCREENSHOTS — CAPTION TEXT
+(add these as text overlays on screenshots)
+═══════════════════════════════════════════
+
+Screenshot 1: "One tap. Pure survival."
+Screenshot 2: "Beat your own ghost every run."
+Screenshot 3: "Earn badges. Level up. Go further."
+Screenshot 4: "Daily challenges. Weekly seasons."
+Screenshot 5: "Your trail. Your fingerprint. Share it."
