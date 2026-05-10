@@ -1,0 +1,49 @@
+workflows:
+  ios-workflow:
+    name: POKE iOS Build
+    max_build_duration: 60
+    environment:
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: com.adnansaid.poke
+      vars:
+        APP_STORE_CONNECT_KEY_IDENTIFIER: 2P3S5ZULSS
+        APP_STORE_CONNECT_ISSUER_ID: 2462f739-654f-4602-aa41-15627776e739
+        BUNDLE_ID: com.adnansaid.poke
+        XCODE_WORKSPACE: "Runner.xcworkspace"
+        XCODE_SCHEME: "Runner"
+      node: latest
+      xcode: latest
+      cocoapods: default
+    scripts:
+      - name: Install dependencies
+        script: |
+          npm install -g @capacitor/cli @capacitor/core
+          npm init -y
+          npm install @capacitor/cli @capacitor/core @capacitor/ios
+      - name: Init Capacitor
+        script: |
+          npx cap init "POKE Space Survivor" com.adnansaid.poke --web-dir .
+          npx cap add ios
+      - name: Copy web assets
+        script: |
+          npx cap copy ios
+      - name: Set up code signing
+        script: |
+          xcode-project use-profiles
+      - name: Build iOS
+        script: |
+          xcode-project build-ipa \
+            --workspace ios/App/App.xcworkspace \
+            --scheme App
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log
+    publishing:
+      app_store_connect:
+        auth: integration
+        api_key: $APP_STORE_CONNECT_PRIVATE_KEY
+        key_id: $APP_STORE_CONNECT_KEY_IDENTIFIER
+        issuer_id: $APP_STORE_CONNECT_ISSUER_ID
+        submit_to_testflight: false
+        submit_to_app_store: true
