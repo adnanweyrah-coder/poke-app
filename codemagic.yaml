@@ -2,36 +2,35 @@ workflows:
   ios-workflow:
     name: POKE iOS Build
     max_build_duration: 60
+    integrations:
+      app_store_connect: Codemagic
     environment:
       ios_signing:
         distribution_type: app_store
         bundle_identifier: com.adnansaid.poke
-      vars:
-        BUNDLE_ID: com.adnansaid.poke
       node: latest
       xcode: latest
       cocoapods: default
     scripts:
-      - name: Install dependencies
+      - name: Install Capacitor
         script: |
-          npm install -g @capacitor/cli @capacitor/core
+          npm install -g @capacitor/cli
           npm init -y
           npm install @capacitor/cli @capacitor/core @capacitor/ios
-      - name: Init Capacitor
+      - name: Init Capacitor project
         script: |
           npx cap init "POKE Space Survivor" com.adnansaid.poke --web-dir .
           npx cap add ios
-      - name: Copy web assets
-        script: |
           npx cap copy ios
       - name: Set up code signing
         script: |
-          xcode-project use-profiles
-      - name: Build iOS
+          xcode-project use-profiles --create
+      - name: Build IPA
         script: |
           xcode-project build-ipa \
             --workspace ios/App/App.xcworkspace \
-            --scheme App
+            --scheme App \
+            --config Release
     artifacts:
       - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
