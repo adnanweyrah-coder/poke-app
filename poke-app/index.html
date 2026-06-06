@@ -630,7 +630,7 @@ function dismissScreens(){
   if(soundsScreen.classList.contains('show')){soundsScreen.classList.remove('show');return true;}
   return false;
 }
-function handleDown(e){
+function handleDown(e){getAC();
   e.preventDefault();
   if(dismissScreens())return;
   if(state==='idle'||state==='dead'){startGame();return;}
