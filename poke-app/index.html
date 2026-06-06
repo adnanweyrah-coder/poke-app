@@ -760,7 +760,7 @@ function update(){
     if(dot.x+r>w.x&&dot.x-r<w.x+WALL_W()){
       if(dot.y-r<w.topH||dot.y+r>w.botY){
         const nd=Math.min(Math.abs(dot.y-w.topH),Math.abs(dot.y-w.botY));
-        if(nd<10*sc){slowMoFrames=20;slowMoScale=.2;setTimeout(()=>die(),340);return;}
+        if(nd<10*sc){slowMoFrames=10;slowMoScale=.3;setTimeout(()=>die(),180);return;}
         die();return;
       }
     }
@@ -793,7 +793,7 @@ function die(){
   const nb=score>bestScore;
   if(nb){bestScore=score;sv('pk_best',bestScore);bestEl.textContent=bestScore;sfxNewBest();bestStamp.classList.add('show');setTimeout(()=>bestStamp.classList.remove('show'),1500);}
 
-  setTimeout(()=>{drawDeathCard(nb);cardWrap.classList.add('show');},(nb?950:520));
+  setTimeout(()=>{drawDeathCard(nb);cardWrap.classList.add('show');},(nb?700:350));
 }
 
 // ══ DRAW ══════════════════════════════════════════════════
